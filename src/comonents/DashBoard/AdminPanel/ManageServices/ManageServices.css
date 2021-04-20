@@ -1,0 +1,39 @@
+.delete-btn{
+    height: 30px;
+    width: 30px;
+    border:0;
+    border-radius: 5px;
+    outline:0;
+    box-shadow: 0 5px #999;
+    display: inline-block;
+    transition: 1s;
+}
+tbody img{
+    height: 30px;
+    width: 30px;
+}
+
+.delete-btn:active img {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  padding:0;
+}
+.tb{
+    width:100%;
+    /* margin-bottom: 30px; */
+    margin-left: 20%;
+    margin-top:45px;
+}
+@media screen and (max-width: 500px) {
+    .delete-event-container{
+        height:100%;
+        width:100%;
+    }
+    .tb{
+        width:80%;
+        margin-bottom: 30px;
+        margin-left: 10%;
+    }
+ 
+}

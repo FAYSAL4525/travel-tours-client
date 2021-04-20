@@ -1,0 +1,70 @@
+.card-container{ 
+	 height:500px;
+	display: inline-block;
+/* background: #C7D2FE66; */
+/* background: #C7D2FE66; */
+border-radius: 10px;
+/* z-index: 1; */
+position: relative;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(128, 128, 128, 0.11);
+background-clip: border-box;
+cursor: pointer;
+background-position: center transparent;
+  box-shadow: 0px 8px 12px -5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+  will-change: transform;
+	width:99%;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top:20px;
+}
+.card-container:hover {
+  box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.4);
+	height:500px;
+  will-change: transform;
+	 transition: box-shadow 0.5s;
+}
+.card-container:hover .heading{
+	color:#79B530;
+}
+.card-container:hover .event-area{
+	color:#79B530;
+}
+.card-container:hover .price-area{
+	font-weight: 900;
+}
+.card-img{
+	height:230px;
+	background-position: center;
+	background-size: contain;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.heading{
+	height: 30px !important;
+	overflow: hidden;
+	padding: 1em;
+}
+.description-area{
+	height:80px;
+	overflow: hidden;
+}
+.event-area{
+	height:50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+}
+.explore{
+	overflow: hidden;
+}
+.btn-explore{
+	background: #89be48;
+	color:white;
+}
+.btn-explore:hover{
+	/* border:1px solid  #79B530; */
+	background-color: #79B530;
+	border-radius: 5px;
+}
