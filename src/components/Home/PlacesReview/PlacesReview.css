@@ -1,0 +1,27 @@
+.place-review-container {
+  height: 450px !important;
+  width: 100%;
+  position: relative;
+}
+.place-description {
+  box-sizing: border-box;
+  padding-left: 9%;
+}
+.booking-bg-name {
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 700;
+}
+.btn-book {
+  background: #89be48;
+  color: white;
+}
+.btn-book:hover {
+  background-color: #79b530;
+  border-radius: 5px;
+}

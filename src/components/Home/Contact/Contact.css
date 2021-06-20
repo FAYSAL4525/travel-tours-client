@@ -1,0 +1,36 @@
+.contact{
+    background: rgba(69, 241, 169, 0.178);
+    position: relative;
+		margin-top: -49px;
+    z-index: 1;
+}
+/* .contact::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: .9;
+    z-index: -1;
+}  */
+.form-container {
+    background-color: aquamarine;
+    width: 100%;
+}
+.form-area {
+	box-sizing: border-box;
+    width:600px;
+    border-radius: 5px;
+    padding:10px;
+    height: 400px;
+    color:#282846;
+}
+.input-style {
+    width:48% !important;
+    display:inline-block !important;
+    background-color: rgba(105, 105, 105, 0.329) !important;
+}
+.input-textarea {
+    background-color: rgba(105, 105, 105, 0.329) !important;
+}

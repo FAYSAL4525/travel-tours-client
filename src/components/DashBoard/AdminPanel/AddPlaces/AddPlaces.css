@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+.add-places-container{
+	width:550px;
+	height:auto;
+}
+.add-places-form{
+	box-sizing: border-box;
+	width: 550px;
+	height: auto;
+}
+input[type="file"] {
+  display: none;
+}
+.img .label {
+  color: rgb(9, 99, 202);
+  height: 35px;
+  width: 100%;
+  background-color: #f5af09;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+@media only screen and (max-width:600px) {
+.add-places-container{
+	width:250px;
+	height:auto;
+	padding-top: 5px;
+	padding-bottom: 5px!important;
+}
+.add-places-form{
+	box-sizing: border-box;
+	width: 250px;
+	height: auto;
+}	
+}

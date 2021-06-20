@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.admin-booklist {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .admin-booklist-table {
+    box-sizing: border-box;
+    width: 73vw;
+  }
+  .table-booklist-admin {
+    box-sizing: border-box;
+    width: 100vw !important;
+    background: white;
+  }
+}

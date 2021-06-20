@@ -1,0 +1,36 @@
+.guided-info-card{
+	display: flex;
+	width: 100%;
+	height: 280px;
+		margin-bottom: 40px;
+}
+.guided-img-card{
+		height: 270px;
+	width: 270px;
+	padding: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.guided-info-card img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+.guided-info-container{
+	text-align: left;
+	padding-left: 35px;
+	padding-top: 13px;
+}
+
+.guided-info-container .guided-info-p{
+	margin: 0;
+	padding: 10px 10px 10px 0px;
+	width: 100%;
+}
+.guided-info-container .btn-travel-with{
+		background-color: #79B530;
+		color:white;
+		font-weight: 500;
+		padding-top: 5px;
+		outline: 0;
+}
